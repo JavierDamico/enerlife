@@ -1,0 +1,406 @@
+body {
+  font: 100% "Poppins", sans-serif;
+}
+body a {
+  color: black;
+  text-decoration: none;
+}
+body a:visited {
+  text-decoration: none;
+}
+body li {
+  list-style: none;
+}
+body input:focus,
+body select:focus,
+body textarea:focus,
+body button:focus {
+  outline: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #47da54;
+}
+#top-bar .logo {
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+  color: white;
+  padding: 24px;
+}
+#top-bar .logo a {
+  color: white;
+}
+#top-bar .barra {
+  width: 45%;
+}
+#top-bar .barra input {
+  border-radius: 50px;
+  border: none;
+  width: 90%;
+}
+#top-bar .barra .carrito {
+  width: 15%;
+}
+#top-bar .barra .carrito img {
+  width: 150%;
+}
+#top-bar .barra .searchbar {
+  margin: 15px;
+  size: 50;
+  font-size: 18px;
+  padding: 12px;
+}
+#top-bar .barra button {
+  margin: -60px;
+  border: none;
+  background: white;
+  font-size: 1.5em;
+}
+#top-bar .barra form {
+  width: 100%;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  background-color: #47da54;
+  font-size: 22px;
+}
+.contenedor a {
+  color: white;
+  background-color: #47da54;
+}
+.contenedor li {
+  background-color: #47da54;
+}
+.contenedor .navegacion ul {
+  list-style: none;
+}
+.contenedor .menu > li {
+  position: relative;
+  display: inline-block;
+}
+.contenedor .menu > li > a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+.contenedor .submenu {
+  position: absolute;
+  width: 180%;
+  display: none;
+  left: 10px;
+}
+.contenedor .submenu a {
+  font-size: 18px;
+}
+.contenedor .submenu li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+.contenedor .menu li:hover .submenu {
+  display: block;
+}
+.contenedor a:hover {
+  background-color: #3fbf3f;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.banner {
+  text-align: center;
+  background-image: url("../images/granos_varios_rec.jpg");
+  color: white;
+  padding: 120px;
+  background-size: cover;
+}
+.banner .titulo-boton {
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.banner h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 64px;
+}
+.banner .boton-comprar {
+  background: #47da54;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 64px;
+  color: white;
+}
+
+.beneficios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+  margin: 12px 0px;
+  padding: 24px;
+}
+.beneficios .conteiner-tarj-benef {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 0px 12px;
+}
+.beneficios .conteiner-tarj-benef img {
+  width: 110%;
+}
+.beneficios .conteiner-tarj-benef .aside-box {
+  padding: 5px;
+}
+
+.destacados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 48px;
+}
+.destacados .prod-destacado {
+  text-align: center;
+  margin: 12px;
+}
+.destacados .prod-destacado img {
+  box-shadow: gray 3px 3px 3px;
+}
+
+hr {
+  height: 1px;
+  background: lightgray;
+  border: none;
+  margin: 0px 100px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 24px;
+}
+.footer-links .left-footer {
+  width: 240px;
+  padding: 24px;
+}
+.footer-links .left-footer .delivery {
+  width: 100%;
+}
+.footer-links .left-footer .redes-sociales h3 {
+  color: #47da54;
+}
+.footer-links .central-footer {
+  width: auto;
+  padding: 24px;
+}
+.footer-links .central-footer .list-enlaces {
+  list-style-type: none;
+}
+.footer-links .central-footer .info-links h3 {
+  color: #47da54;
+}
+.footer-links .right-footer {
+  padding: 24px;
+  width: auto;
+}
+.footer-links .right-footer .list-enlaces {
+  list-style-type: none;
+}
+.footer-links .right-footer .info-links h3 {
+  color: #47da54;
+}
+
+.footer-bottom {
+  background: #47da54;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.tienda-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 12px;
+  width: 100%;
+  margin-top: 24px;
+}
+.tienda-box .select-cat a {
+  text-decoration: none;
+}
+.tienda-box .select-cat h3 {
+  color: #47da54;
+}
+.tienda-box .tarj-prod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.tienda-box .productos {
+  text-align: center;
+  margin: 12px;
+}
+.tienda-box .productos .name,
+.tienda-box .productos .price {
+  display: block;
+}
+.tienda-box .productos .price {
+  color: #47da54;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+.more .btn {
+  margin: 12px;
+  background: #47DA54;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .barra input {
+    display: none;
+  }
+
+  .barra button {
+    display: none;
+  }
+
+  .contenedor {
+    font-size: 20px;
+  }
+
+  .banner {
+    padding: 0px;
+  }
+
+  .tienda-box .tarj-prod {
+    width: 60%;
+  }
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 24px;
+}
+.contact .contact-items {
+  width: 20%;
+  line-height: 1.5em;
+}
+.contact .contact-items h1 {
+  color: #47da54;
+}
+.contact .contact-items p {
+  padding: 6px;
+  margin: 6px;
+}
+.contact .contact-items .contact-info {
+  margin-left: 12px;
+}
+.contact .form-block {
+  width: 40%;
+}
+.contact .form-block input {
+  width: 95%;
+  margin-bottom: 6px;
+  padding: 5px;
+  font-size: 16px;
+}
+.contact .form-block textarea {
+  width: 95%;
+  margin-bottom: 6px;
+  padding: 5px;
+  font-size: 16px;
+}
+.contact .form-block button {
+  width: 95%;
+  background: #47da54;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  margin-top: 6px;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.pay {
+  margin: 24px;
+}
+.pay h2 {
+  color: #47da54;
+  margin-top: 12px;
+}
+.pay .tarjetas img {
+  max-height: 48px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.info h2 {
+  text-align: center;
+  margin: 12px;
+  color: #47da54;
+}
+.info h3 {
+  width: 52em;
+  margin-left: auto;
+  margin-right: auto;
+  color: #47da54;
+}
+.info .instrucciones {
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info .instrucciones ul > li {
+  margin: 12px;
+  list-style-type: disc !important;
+}
+
+hr {
+  margin-top: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .barra input {
+    display: none;
+  }
+
+  .contenedor {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,30 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
+  h2 {
+    text-align: center;
+    margin: 12px;
+    color: #47da54;
+  }
+  h3 {
+    width: 52em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #47da54;
+  }
+  .instrucciones {
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    ul > li {
+      margin: 12px;
+      list-style-type: disc !important;
+    }
+  }
+}
+hr {
+  margin-top: 36px;
+}

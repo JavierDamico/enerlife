@@ -1,0 +1,288 @@
+$font-stack: "Poppins", sans-serif;
+$brand-color: #47da54;
+$secondary-color: #3fbf3f;
+$logo-font: "Lobster", cursive;
+
+body {
+  font: 100% $font-stack;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #47da54;
+
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 70px;
+    color: white;
+    padding: 24px;
+
+    a {
+      color: white;
+    }
+  }
+
+  .barra {
+    width: 45%;
+
+    input {
+      border-radius: 50px;
+      border: none;
+      width: 90%;
+    }
+
+    form {
+      width: 100%;
+    }
+  }
+
+  .carrito {
+    width: 15%;
+
+    img {
+      width: 150%;
+    }
+  }
+
+  .searchbar {
+    margin: 15px;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  button {
+    margin: -60px;
+    border: none;
+    background: white;
+    font-size: 1.5em;
+  }
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  background-color: #47da54;
+  font-size: 22px;
+}
+
+.contenedor {
+  a {
+    color: white;
+    background-color: #47da54;
+  }
+
+  li {
+    background-color: #47da54;
+  }
+
+  .navegacion ul {
+    list-style: none;
+  }
+
+  .menu > li {
+    position: relative;
+    display: inline-block;
+  }
+
+  .menu > li > a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+
+  .menu a:hover {
+    background-color: #3fbf3f;
+    border-radius: 50px;
+    transition: all 0.3s;
+  }
+
+  .submenu {
+    position: absolute;
+    width: 180%;
+    display: none;
+    left: 10px;
+  }
+
+  .submenu a {
+    font-size: 16px;
+  }
+
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  .menu li:hover .submenu {
+    display: block;
+  }
+}
+
+.banner {
+  text-align: center;
+  background-image: url(../img/granos_varios_rec.jpg);
+  color: white;
+  padding: 120px;
+  background-size: cover;
+
+  .titulo-boton {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 64px;
+  }
+  .boton-comprar {
+    background: #47da54;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 64px;
+    color: white;
+  }
+}
+.tienda-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 12px;
+  width: 100%;
+  margin-top: 24px;
+
+  .select-cat {
+    a {
+      text-decoration: none;
+    }
+
+    h3 {
+      color: $brand-color;
+    }
+  }
+  .tarj-prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .items {
+    text-align: center;
+    margin: 12px;
+
+    .nombre,
+    .precio {
+      display: block;
+    }
+
+    .precio {
+      color: $brand-color;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+}
+
+hr {
+  height: 1px;
+  background: lightgray;
+  border: none;
+  margin: 0px 100px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 24px;
+
+  .left-footer {
+    width: 240px;
+    padding: 24px;
+  }
+
+  .delivery {
+    width: 100%;
+  }
+
+  .central-footer {
+    width: auto;
+    padding: 24px;
+  }
+
+  .right-footer {
+    padding: 24px;
+    width: auto;
+  }
+
+  .list-enlaces {
+    list-style-type: none;
+  }
+
+  .redes-sociales h3,
+  .list-enlaces h3,
+  .info-links h3 {
+    color: $brand-color;
+  }
+}
+
+.footer-bottom {
+  background: $brand-color;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .barra {
+    input {
+      display: none;
+    }
+  }
+
+  .barra button {
+    display: none;
+  }
+  .contenedor {
+    font-size: 20px;
+  }
+
+  .banner {
+    padding: 0px;
+  }
+
+  .tienda-box {
+    .tarj-prod {
+      width: 60%;
+    }
+  }
+}

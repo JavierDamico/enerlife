@@ -1,0 +1,260 @@
+
+
+
+$font-stack: "Poppins", sans-serif;
+$brand-color: #47da54;
+$secondary-color: #3fbf3f;
+$logo-font: "Lobster", cursive;
+
+body {
+  font: 100% $font-stack;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $brand-color;
+  .logo {
+    font-family: "Lobster", cursive;
+    font-size: 70px;
+    color: white;
+    padding: 24px;
+  }
+  .logo a {
+    color: white;
+  }
+  .barra {
+    width: 45%;
+    input {
+      border-radius: 50px;
+      border: none;
+      width: 90%;
+    }
+    .carrito {
+      width: 15%;
+      img {
+        width: 150%;
+      }
+    }
+    .searchbar {
+      margin: 15px;
+      size: 50;
+      font-size: 18px;
+      padding: 12px;
+    }
+    button {
+      margin: -60px;
+      border: none;
+      background: white;
+      font-size: 1.5em;
+    }
+    form {
+      width: 100%;
+    }
+  }
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  background-color: $brand-color;
+  font-size: 22px;
+  a {
+    color: white;
+    background-color: $brand-color;
+  }
+  li {
+    background-color: $brand-color;
+  }
+  .navegacion ul {
+    list-style: none;
+  }
+  .menu > li {
+    position: relative;
+    display: inline-block;
+  }
+  .menu > li > a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  .submenu {
+    position: absolute;
+    width: 180%;
+    display: none;
+    left: 10px;
+    a {
+      font-size: 18px;
+    }
+    li a {
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+    }
+  }
+  .menu li:hover .submenu {
+    display: block;
+  }
+  a:hover {
+    background-color: #3fbf3f;
+    border-radius: 50px;
+    transition: all 0.3s;
+  }
+}
+
+.banner {
+  text-align: center;
+  background-image: url('../images/granos_varios_rec.jpg');
+  color: white;
+  padding: 120px;
+  background-size: cover;
+  .titulo-boton {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 64px;
+  }
+  .boton-comprar {
+    background: #47da54;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 64px;
+    color: white;
+  }
+}
+.beneficios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgray;
+  margin: 12px 0px;
+  padding: 24px;
+  .conteiner-tarj-benef {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0px 12px;
+    img {
+      width: 110%;
+    }
+    .aside-box {
+      padding: 5px;
+    }
+  }
+}
+
+.destacados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 48px;
+  .prod-destacado {
+    text-align: center;
+    margin: 12px;
+    img {
+      box-shadow: gray 3px 3px 3px;
+    }
+  }
+}
+hr {
+  height: 1px;
+  background: lightgray;
+  border: none;
+  margin: 0px 100px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  padding: 24px;
+  .left-footer {
+    width: 240px;
+    padding: 24px;
+    .delivery {
+      width: 100%;
+    }
+    .redes-sociales h3 {
+      color: $brand-color;
+    }
+  }
+  .central-footer {
+    width: auto;
+    padding: 24px;
+    .list-enlaces {
+      list-style-type: none;
+    }
+    .info-links h3 {
+      color: #47da54;
+    }
+  }
+
+  .right-footer {
+    padding: 24px;
+    width: auto;
+    .list-enlaces {
+      list-style-type: none;
+    }
+    .info-links h3 {
+      color: #47da54;
+    }
+  }
+}
+.footer-bottom {
+  background: $brand-color;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+@import '_tienda';
+@import '_contacto';
+@import 'medios-pago';
+@import 'como-comprar';
+
+
+@media screen and (max-width: 768px) {
+  .barra input {
+    display: none;
+  }
+
+  .contenedor {
+    font-size: 20px;
+  }
+}
