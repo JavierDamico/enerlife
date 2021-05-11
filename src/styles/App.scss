@@ -186,9 +186,10 @@ body {
   .prod-destacado {
     text-align: center;
     margin: 12px;
-    img {
-      box-shadow: gray 3px 3px 3px;
-    }
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    box-shadow: gray 3px 3px 3px;
   }
 }
 hr {

@@ -26,9 +26,12 @@
             
     }
 
-    .productos {
+    .producto {
         text-align: center;
         margin:12px;
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        overflow: hidden;
 
         .name,
         .price {

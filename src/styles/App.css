@@ -176,8 +176,9 @@ body button:focus {
 .destacados .prod-destacado {
   text-align: center;
   margin: 12px;
-}
-.destacados .prod-destacado img {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
   box-shadow: gray 3px 3px 3px;
 }
 
@@ -254,15 +255,18 @@ hr {
   justify-content: space-evenly;
   width: 70%;
 }
-.tienda-box .productos {
+.tienda-box .producto {
   text-align: center;
   margin: 12px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.tienda-box .productos .name,
-.tienda-box .productos .price {
+.tienda-box .producto .name,
+.tienda-box .producto .price {
   display: block;
 }
-.tienda-box .productos .price {
+.tienda-box .producto .price {
   color: #47da54;
   font-weight: 600;
   font-size: 20px;

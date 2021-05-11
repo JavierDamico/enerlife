@@ -9,10 +9,10 @@ function GenProductos() {
             <div className="tarj-prod">
                 {
                     pages.map(function (dato) {
-                        return <div className="producto">
+                        return <div className="producto" key={dato.id}>
                             <img src={dato.photo} alt="producto" />
-                            <p>{dato.name}</p>
-                            <p>${dato.price}</p>
+                            <p className="name">{dato.name}</p>
+                            <p className="price">${dato.price}</p>
                         </div>
                     })
                 }

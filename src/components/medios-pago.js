@@ -15,7 +15,7 @@ function MediosPago() {
             <MenuBar />
             <Banner />
 
-            <div class="pay">
+            <div className="pay">
                 <h2>Efectivo</h2>
                 <p>Lo pagás cuando recibís el pedido.</p>
 
@@ -26,7 +26,7 @@ function MediosPago() {
                 <p>Lo podés abonar con MercadoPago.</p>
 
                 <h2>Tarjetas de crédito</h2>
-                <div class="tarjetas">
+                <div className="tarjetas">
                     <img src={visa} alt="Visa" />
                     <img src={master} alt="Mastercard" />
                     <img src={amex} alt="American Express" />
