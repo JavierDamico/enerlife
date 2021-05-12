@@ -21,17 +21,21 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        width:70%
+        width:75%
 
             
     }
 
     .producto {
+        // flex-direction: column;
+        // display: flex;
+        width: 250px;
         text-align: center;
         margin:12px;
         border: 1px solid lightgray;
         border-radius: 20px;
         overflow: hidden;
+        font-size: 1vw;
 
         .name,
         .price {

@@ -25,14 +25,12 @@ function Tienda() {
                     <li><Link to="/harinas">Harinas y premezclas</Link></li>
                     <li><Link to="/infusiones">Infusiones</Link></li>
                     <li><Link to="/suplementos">Suplementos</Link></li>
-                </div>
+            </div>
 
-                <GenProductos />
+            <GenProductos />
 
             </div>
-            <div className="more">
-                <input className="btn" type="submit" value="Ver más" />
-            </div>
+            
 
             <Footer />
         </>
