@@ -9,15 +9,15 @@ function MenuBar() {
                     <ul className="menu">
                         <li><Link to="#">Categorias</Link>
                             <ul className="submenu">
-                                <li><Link to="#">Almacen</Link></li>
-                                <li><Link to="#">Dulces</Link></li>
-                                <li><Link to="#">Cereales y legumbres</Link></li>
-                                <li><Link to="#">Especias</Link></li>
-                                <li><Link to="#">Snacks</Link></li>
-                                <li><Link to="#">Untables</Link></li>
-                                <li><Link to="#">Harinas y premezclas</Link></li>
-                                <li><Link to="#">Infusiones</Link></li>
-                                <li><Link to="#">Suplementos</Link></li>
+                                <li><Link to="/almacen">Almacen</Link></li>
+                                <li><Link to="/dulces">Dulces</Link></li>
+                                <li><Link to="/cereales">Cereales y legumbres</Link></li>
+                                <li><Link to="/especias">Especias</Link></li>
+                                <li><Link to="/snacks">Snacks</Link></li>
+                                <li><Link to="/untables">Untables</Link></li>
+                                <li><Link to="/harinas">Harinas y premezclas</Link></li>
+                                <li><Link to="/infusiones">Infusiones</Link></li>
+                                <li><Link to="/suplementos">Suplementos</Link></li>
                             </ul>
                         </li>
                     </ul>

@@ -9,11 +9,59 @@ import Contacto from './components/contacto.js'
 import ComoComprar from './components/como-comprar.js'
 import Tienda from './components/tienda.js'
 import MediosPago from './components/medios-pago'
+import Almacen from './components/Almacen'
+import Dulces from './components/Dulces'
+import Cereales from './components/Cereales'
+import Especias from './components/Especias'
+import Snacks from './components/Snacks'
+import Untables from './components/Untables'
+import Harinas from './components/Cereales'
+import Infusiones from './components/Infusiones'
+import Suplementos from './components/Suplementos'
+
+
 
 function App() {
   return (
     <Router>
       <Switch>
+
+      <Route path="/especias">
+          <Especias />
+        </Route>
+
+        <Route path="/snacks">
+          <Snacks />
+        </Route>
+
+        <Route path="/untables">
+          <Untables />
+        </Route>
+
+        <Route path="/harinas">
+          <Harinas />
+        </Route>
+
+        <Route path="/infusiones">
+          <Infusiones />
+        </Route>
+
+        <Route path="/suplementos">
+          <Suplementos />
+        </Route>
+
+        <Route path="/cereales">
+          <Cereales />
+        </Route>
+
+        <Route path="/almacen">
+          <Almacen />
+        </Route>
+
+        <Route path="/dulces">
+          <Dulces />
+        </Route>
+
         <Route path="/contacto">
           <Contacto />
         </Route>
@@ -29,10 +77,6 @@ function App() {
         <Route path="/medios-pago">
           <MediosPago />
         </Route>
-
-        {/* <Route path="/productos/:id">
-          <ProductDetail />
-        </Route> */}
 
         <Route path="/" exact>
           <Home />

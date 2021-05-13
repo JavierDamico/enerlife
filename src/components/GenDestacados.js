@@ -11,7 +11,7 @@ function GenDestacados() {
         <>
             <div className="destacados">
                 {
-                    pages[page].map(function (dato) {
+                    pages.map(function (dato) {
                         return <div className="prod-destacado" key={dato.id}>
                             <img src={dato.photo} alt="producto" />
                             <p>{dato.name}</p>
