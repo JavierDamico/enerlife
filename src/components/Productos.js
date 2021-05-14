@@ -1,340 +1,597 @@
 module.exports = [
-
-    {
-      id: "1",
-      photo: "/productos/aceite-de-canola-300x300.jpeg",
-      name: "Aceite de canola x 250ml",
-      price: "330",
-      category_id: "1"
-    },
-    {
-      id: "2",
-      photo: "/productos/aceite-de-coco-neutro-300x300.jpg",
-      name: "Aceite de coco neutro x 180ml",
-      price: "350",
-      category_id: "1"
-    },
-    {
-      id: "3",
-      photo: "/productos/aceite-coco-virgen-300x300.jpg",
-      name: "Aceite de coco virgen x 200ml",
-      price: "464",
-      category_id: "1"
-    },
-    {
-      id: "4",
-      photo: "/productos/aceite-de-oliva-300x300.jpg",
-      name: "Aceite de oliva extra virgen x 500ml",
-      price: "363",
-      category_id: "1"
-    },
-    {
-      id: "5",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Leche de almendras x 1L",
-      price: "200",
-      category_id: "1"
-    },
-    {
-      id: "6",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Leche de almendras de vainilla x 1L",
-      price: "175",
-      category_id: "1"
-    },
-    {
-      id: "7",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal marina x 50gr",
-      price: "95",
-      category_id: "1"
-    },
-    {
-      id: "8",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal marina con especias x 250gr",
-      price: "122",
-      category_id: "1"
-    },
-    {
-      id: "9",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal rosa del Himalaya x 285gr",
-      price: "224",
-      category_id: "1"
-    },
-    {
-      id: "10",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Azucar integral mascabo x 500gr",
-      price: "102",
-      category_id: "1"
-    },
-    {
-      id: "11",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Estevia en polvo x 110gr",
-      price: "234",
-      category_id: "1"
-    },
-    {
-      id: "12",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "1"
-    },
-    {
-      id: "13",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "14",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "15",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "16",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "17",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "18",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "19",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "20",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "21",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "22",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "23",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "24",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "25",
-      photo: "/productos/aceite-de-canola-300x300.jpeg",
-      name: "Aceite de canola x 250ml",
-      price: "330",
-      category_id: "1"
-    },
-    {
-      id: "26",
-      photo: "/productos/aceite-de-coco-neutro-300x300.jpg",
-      name: "Aceite de coco neutro x 180ml",
-      price: "350",
-      category_id: "1"
-    },
-    {
-      id: "27",
-      photo: "/productos/aceite-coco-virgen-300x300.jpg",
-      name: "Aceite de coco virgen x 200ml",
-      price: "464",
-      category_id: "1"
-    },
-    {
-      id: "28",
-      photo: "/productos/aceite-de-oliva-300x300.jpg",
-      name: "Aceite de oliva extra virgen x 500ml",
-      price: "363",
-      category_id: "1"
-    },
-    {
-      id: "29",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Leche de almendras x 1L",
-      price: "200",
-      category_id: "1"
-    },
-    {
-      id: "30",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Leche de almendras de vainilla x 1L",
-      price: "175",
-      category_id: "1"
-    },
-    {
-      id: "31",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal marina x 50gr",
-      price: "95",
-      category_id: "1"
-    },
-    {
-      id: "32",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal marina con especias x 250gr",
-      price: "122",
-      category_id: "1"
-    },
-    {
-      id: "33",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Sal rosa del Himalaya x 285gr",
-      price: "224",
-      category_id: "1"
-    },
-    {
-      id: "34",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Azucar integral mascabo x 500gr",
-      price: "102",
-      category_id: "1"
-    },
-    {
-      id: "35",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Estevia en polvo x 110gr",
-      price: "234",
-      category_id: "1"
-    },
-    {
-      id: "36",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "1"
-    },
-    {
-      id: "37",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "38",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "39",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "40",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "41",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "42",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "43",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "44",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "45",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "46",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "47",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    },
-    {
-      id: "48",
-      photo: "https://placeimg.com/250/250/nature",
-      name: "Stevia liquida x 125gr",
-      price: "176",
-      category_id: "2"
-    }
-]
-
+  {
+    id: "1",
+    photo: "/productos/aceite-de-canola-300x300.jpg",
+    name: "Aceite de canola x 250ml",
+    price: "330",
+    category_id: "1",
+  },
+  {
+    id: "2",
+    photo: "/productos/aceite-de-coco-neutro-300x300.jpg",
+    name: "Aceite de coco neutro x 180ml",
+    price: "350",
+    category_id: "1",
+  },
+  {
+    id: "3",
+    photo: "/productos/aceite-coco-virgen-300x300.jpg",
+    name: "Aceite de coco virgen x 200ml",
+    price: "464",
+    category_id: "1",
+  },
+  {
+    id: "4",
+    photo: "/productos/aceite-de-oliva-300x300.jpg",
+    name: "Aceite de oliva extra virgen x 500ml",
+    price: "363",
+    category_id: "1",
+  },
+  {
+    id: "5",
+    photo: "/productos/leche-almendras-300x300.jpg",
+    name: "Leche de almendras x 1L",
+    price: "200",
+    category_id: "1",
+  },
+  {
+    id: "6",
+    photo: "/productos/leche-de-almendras-vainilla.jpg",
+    name: "Leche de almendras de vainilla x 1L",
+    price: "175",
+    category_id: "1",
+  },
+  {
+    id: "7",
+    photo: "/productos/sal-marina-fina.jpg",
+    name: "Sal marina x 50gr",
+    price: "95",
+    category_id: "1",
+  },
+  {
+    id: "8",
+    photo: "/productos/sal-marina-especias.jpg",
+    name: "Sal marina con especias x 250gr",
+    price: "122",
+    category_id: "1",
+  },
+  {
+    id: "9",
+    photo: "/productos/sal-marina-rosa.jpg",
+    name: "Sal rosa del Himalaya x 285gr",
+    price: "224",
+    category_id: "1",
+  },
+  {
+    id: "10",
+    photo: "/productos/azucar-integral.jpg",
+    name: "Azucar integral mascabo x 500gr",
+    price: "102",
+    category_id: "1",
+  },
+  {
+    id: "11",
+    photo: "/productos/stevia-liquida.jpg",
+    name: "Estevia en polvo x 110gr",
+    price: "234",
+    category_id: "1",
+  },
+  {
+    id: "12",
+    photo: "/productos/stevia-liquida.jpg",
+    name: "Stevia liquida x 125gr",
+    price: "176",
+    category_id: "1",
+  },
+  {
+    id: "13",
+    photo: "/productos/alfajores-celienergy.jpg",
+    name: "Alfajores Celienergy x 50gr",
+    price: "78",
+    category_id: "2",
+  },
+  {
+    id: "14",
+    photo: "/productos/alfajor-vegano.jpg",
+    name: "Alfajor vegano",
+    price: "73",
+    category_id: "2",
+  },
+  {
+    id: "15",
+    photo: "/productos/alfajor-arroz.jpg",
+    name: "Alfajor de arroz",
+    price: "38",
+    category_id: "2",
+  },
+  {
+    id: "16",
+    photo: "/productos/barritas-pasta-de-mani.jpg",
+    name: "Barritas de pasta de maní y chocolate",
+    price: "76",
+    category_id: "2",
+  },
+  {
+    id: "17",
+    photo: "/productos/choc-mani.jpg",
+    name: "Chocolate con mani, sin azucar",
+    price: "209",
+    category_id: "2",
+  },
+  {
+    id: "18",
+    photo: "/productos/chocolate.jpg",
+    name: "Tableta de chocolate semiamargo sin azúcar",
+    price: "198",
+    category_id: "2",
+  },
+  {
+    id: "19",
+    photo: "/productos/helado-vegano.jpg",
+    name: "Helado vegano x 1/4kg",
+    price: "275",
+    category_id: "2",
+  },
+  {
+    id: "20",
+    photo: "/productos/arroz-yamani.jpg",
+    name: "Arroz Yamani integral x 500gr",
+    price: "94",
+    category_id: "3",
+  },
+  {
+    id: "21",
+    photo: "/productos/arvejas-enteras.jpg",
+    name: "Arvejas enteras secas x 500gr",
+    price: "55",
+    category_id: "3",
+  },
+  {
+    id: "22",
+    photo: "/productos/avena.jpg",
+    name: "Avena instantánea x 500gr",
+    price: "95",
+    category_id: "3",
+  },
+  {
+    id: "23",
+    photo: "/productos/porotos-negros.jpg",
+    name: "Porotos negros x 500gr",
+    price: "106",
+    category_id: "3",
+  },
+  {
+    id: "24",
+    photo: "/productos/poroto-aduki.jpg",
+    name: "Porotos aduki x 500gr",
+    price: "140",
+    category_id: "3",
+  },
+  {
+    id: "25",
+    photo: "/productos/poroto-alubia.jpg",
+    name: "Porotos alubia x 500gr",
+    price: "116",
+    category_id: "3",
+  },
+  {
+    id: "26",
+    photo: "/productos/lentejas.jpg",
+    name: "Lentejas x 500gr",
+    price: "245",
+    category_id: "3",
+  },
+  {
+    id: "27",
+    photo: "/productos/lentejon.jpg",
+    name: "Lentejon x 500gr",
+    price: "174",
+    category_id: "3",
+  },
+  {
+    id: "28",
+    photo: "/productos/semilla-de-lino.jpg",
+    name: "Semillas de lino x 100gr",
+    price: "22",
+    category_id: "3",
+  },
+  {
+    id: "29",
+    photo: "/productos/semilla-de-sesamo.jpg",
+    name: "Semillas de sesamo x 100gr",
+    price: "35",
+    category_id: "3",
+  },
+  {
+    id: "30",
+    photo: "/productos/semilla-zapallo.jpg",
+    name: "Semillas de zapallo.jpg",
+    price: "109",
+    category_id: "3",
+  },
+  {
+    id: "31",
+    photo: "/productos/garbanzos.jpg",
+    name: "Garbanzos x 500gr",
+    price: "80",
+    category_id: "3",
+  },
+  {
+    id: "32",
+    photo: "/productos/aji-molido.jpg",
+    name: "Ají molido x 100gr",
+    price: "67",
+    category_id: "4",
+  },
+  {
+    id: "33",
+    photo: "/productos/ajo-en-polvo.jpg",
+    name: "Ajo en polvo x 100gr",
+    price: "61",
+    category_id: "4",
+  },
+  {
+    id: "34",
+    photo: "/productos/chimichurri.jpg",
+    name: "Chimichurri x 100gr",
+    price: "88",
+    category_id: "4",
+  },
+  {
+    id: "35",
+    photo: "/productos/mix-de-Pimientas.jpg",
+    name: "Mix de pimientas x 100gr",
+    price: "232",
+    category_id: "4",
+  },
+  {
+    id: "36",
+    photo: "/productos/mostaza-grano.jpg",
+    name: "Mostaza en granos x 100gr",
+    price: "52",
+    category_id: "4",
+  },
+  {
+    id: "37",
+    photo: "/productos/oregano.jpg",
+    name: "Orégano x 100gr",
+    price: "88",
+    category_id: "4",
+  },
+  {
+    id: "38",
+    photo: "/productos/romero.jpg",
+    name: "Romero x 100gr",
+    price: "69",
+    category_id: "4",
+  },
+  {
+    id: "39",
+    photo: "/productos/tomillo.jpg",
+    name: "Tomillo x 100gr",
+    price: "126",
+    category_id: "4",
+  },
+  {
+    id: "40",
+    photo: "/productos/maiz-frito.jpg",
+    name: "Maíz frito x 100gr",
+    price: "109",
+    category_id: "5",
+  },
+  {
+    id: "41",
+    photo: "/productos/mani-japones.jpg",
+    name: "Maní Japonés x 100gr",
+    price: "91",
+    category_id: "5",
+  },
+  {
+    id: "42",
+    photo: "/productos/mani-sin-sal.jpg",
+    name: "Maní repelado sin sal x 100gr",
+    price: "54",
+    category_id: "5",
+  },
+  {
+    id: "43",
+    photo: "/productos/mix-cervecero.jpg",
+    name: "Mix cervecero x 100gr",
+    price: "96",
+    category_id: "5",
+  },
+  {
+    id: "44",
+    photo: "/productos/mix-frutos-secos.jpg",
+    name: "Mix de frutos secos x 100gr",
+    price: "65",
+    category_id: "5",
+  },
+  {
+    id: "45",
+    photo: "/productos/almohaditas-avena.jpg",
+    name: "Almohaditas de avena x 100gr",
+    price: "85",
+    category_id: "5",
+  },
+  {
+    id: "46",
+    photo: "/productos/almohaditas-avena-rellenas.jpg",
+    name: "Almohaditas de avena rellenas x 100gr",
+    price: "100",
+    category_id: "5",
+  },
+  {
+    id: "47",
+    photo: "/productos/granola.jpg",
+    name: "Granola x 100gr",
+    price: "117",
+    category_id: "5",
+  },
+  {
+    id: "48",
+    photo: "/productos/chips-coco.jpg",
+    name: "Chips de coco x 100gr",
+    price: "300",
+    category_id: "5",
+  },
+  {
+    id: "49",
+    photo: "/productos/dulce-leche-stevia.jpg",
+    name: "Dulce de leche con stevia x 400gr",
+    price: "300",
+    category_id: "6",
+  },
+  {
+    id: "50",
+    photo: "/productos/dulce-de-leche-almendras.jpg",
+    name: "Dulce de leche de almendras x 250gr",
+    price: "214",
+    category_id: "6",
+  },
+  {
+    id: "51",
+    photo: "/productos/dulce-de-leche-sin-azucar.jpg",
+    name: "Dulce de leche sin azucar x 400gr",
+    price: "355",
+    category_id: "6",
+  },
+  {
+    id: "52",
+    photo: "/productos/ghee.jpg",
+    name: "Ghee manteca clarificada x 400gr",
+    price: "435",
+    category_id: "6",
+  },
+  {
+    id: "53",
+    photo: "/productos/hummus-de-garbanzos.jpg",
+    name: "Hummus de garbanzos x 230gr",
+    price: "205",
+    category_id: "6",
+  },
+  {
+    id: "54",
+    photo: "/productos/mayonesa-vegetal.jpg",
+    name: "Mayonesa vegetal x 170gr",
+    price: "197",
+    category_id: "6",
+  },
+  {
+    id: "55",
+    photo: "/productos/miel-pura.jpg",
+    name: "Miel pura de abejas x 500gr",
+    price: "348",
+    category_id: "6",
+  },
+  {
+    id: "56",
+    photo: "/productos/pasta-de-mani-crocante.jpg",
+    name: "Pasta de mani crocante x 400gr",
+    price: "203",
+    category_id: "6",
+  },
+  {
+    id: "57",
+    photo: "/productos/harina-de-garbanzos.jpg",
+    name: "Harina de garbanzos x 400gr",
+    price: "68",
+    category_id: "7",
+  },
+  {
+    id: "58",
+    photo: "/productos/harina-de-maiz.jpg",
+    name: "Harina de maiz x 500gr",
+    price: "95",
+    category_id: "7",
+  },
+  {
+    id: "59",
+    photo: "/productos/harina-de-quinoa.jpg",
+    name: "Harina de quinoa x 250",
+    price: "225",
+    category_id: "7",
+  },
+  {
+    id: "60",
+    photo: "/productos/harina-integral.jpg",
+    name: "Harina de trigo integral x 1kg",
+    price: "87",
+    category_id: "7",
+  },
+  {
+    id: "61",
+    photo: "/productos/santamaria.jpg",
+    name: "Premezcla Santamaria x 500gr",
+    price: "250",
+    category_id: "7",
+  },
+  {
+    id: "62",
+    photo: "/productos/dimax-premezcla.jpg",
+    name: "Premezcla Dimax x 500gr",
+    price: "240",
+    category_id: "7",
+  },
+  {
+    id: "63",
+    photo: "/productos/premezcla-delicel-noquis.jpg",
+    name: "Premezcla Delicel p/ñoquis x 250gr",
+    price: "200",
+    category_id: "7",
+  },
+  {
+    id: "64",
+    photo: "/productos/premezcla-brownies.jpg",
+    name: "Premezcla para brownies x 500gr",
+    price: "270",
+    category_id: "7",
+  },
+  {
+    id: "65",
+    photo: "/productos/harina-de-algarroba.jpg",
+    name: "Harna de algarroba x 100gr",
+    price: "89",
+    category_id: "7",
+  },
+  {
+    id: "66",
+    photo: "/productos/harina-de-soja.jpg",
+    name: "Harina de soja x 250gr",
+    price: "40",
+    category_id: "7",
+  },
+  {
+    id: "67",
+    photo: "/productos/te-burrito.jpg",
+    name: "Burrito (hierba serrana) x 50gr",
+    price: "47",
+    category_id: "8",
+  },
+  {
+    id: "68",
+    photo: "/productos/te-peperina.jpg",
+    name: "Menta peperina x 100gr",
+    price: "182",
+    category_id: "8",
+  },
+  {
+    id: "69",
+    photo: "/productos/te-moringa.jpg",
+    name: "Moringa deshidratada x 50gr",
+    price: "131",
+    category_id: "8",
+  },
+  {
+    id: "70",
+    photo: "/productos/yerba-ajedrez.jpg",
+    name: "Yerba mate Ajedrez x 500gr",
+    price: "283",
+    category_id: "8",
+  },
+  {
+    id: "71",
+    photo: "/productos/te-arabia.jpg",
+    name: "Té Arabia 25 saquitos",
+    price: "150",
+    category_id: "8",
+  },
+  {
+    id: "72",
+    photo: "/productos/te-asia.jpg",
+    name: "Té Asia 25 saquitos",
+    price: "150",
+    category_id: "8",
+  },
+  {
+    id: "73",
+    photo: "/productos/te-oasis-tilo.jpg",
+    name: "Té Oasis de tilo",
+    price: "200",
+    category_id: "8",
+  },
+  {
+    id: "74",
+    photo: "/productos/te-organico-doypack.jpg",
+    name: "Té organico en doypack x 100gr",
+    price: "245",
+    category_id: "8",
+  },
+  {
+    id: "75",
+    photo: "/productos/te-be-zen-cedron.jpg",
+    name: "Té Be Zen de cedrón",
+    price: "615",
+    category_id: "8",
+  },
+  {
+    id: "76",
+    photo: "/productos/aceite-de-pescado.jpg",
+    name: "Aceite de pescado 60 cápsulas",
+    price: "730",
+    category_id: "9",
+  },
+  {
+    id: "77",
+    photo: "/productos/cartilago-tiburon.jpg",
+    name: "Cartílago de tiburón",
+    price: "518",
+    category_id: "9",
+  },
+  {
+    id: "78",
+    photo: "/productos/colageno-facial.jpg",
+    name: "Colágeno facial 30 cápsulas",
+    price: "770",
+    category_id: "9",
+  },
+  {
+    id: "79",
+    photo: "/productos/colageno-hidrolizado.jpg",
+    name: "Colágeno hidrolizado x 100gr",
+    price: "218",
+    category_id: "9",
+  },
+  {
+    id: "80",
+    photo: "/productos/ginseng.jpg",
+    name: "Ginseng rojo x 50 comprimidos",
+    price: "615",
+    category_id: "9",
+  },
+  {
+    id: "81",
+    photo: "/productos/graviola-maca.jpg",
+    name: "Graviola + Maca x 90gr",
+    price: "220",
+    category_id: "9",
+  },
+  {
+    id: "82",
+    photo: "/productos/maca-negra.jpg",
+    name: "Maca negra en polvo",
+    price: "414",
+    category_id: "9",
+  },
+  {
+    id: "83",
+    photo: "/productos/probiotico.jpg",
+    name: "Probiótico Kyojin x 60ml",
+    price: "1160",
+    category_id: "9",
+  },
+  {
+    id: "84",
+    photo: "/productos/proteina-soja.jpg",
+    name: "Proteina de soja x 1kg",
+    price: "1980",
+    category_id: "9",
+  },
+  {
+    id: "85",
+    photo: "/productos/vitamina-b12.jpg",
+    name: "Vitamína B12 x 250ml",
+    price: "1100",
+    category_id: "9",
+  },
+];

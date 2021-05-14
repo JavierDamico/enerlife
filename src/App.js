@@ -1,32 +1,25 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from 'react-router-dom'
-import './styles/App.css';
-import Home from './components/Home.js'
-import Contacto from './components/contacto.js'
-import ComoComprar from './components/como-comprar.js'
-import Tienda from './components/tienda.js'
-import MediosPago from './components/medios-pago'
-import Almacen from './components/Almacen'
-import Dulces from './components/Dulces'
-import Cereales from './components/Cereales'
-import Especias from './components/Especias'
-import Snacks from './components/Snacks'
-import Untables from './components/Untables'
-import Harinas from './components/Cereales'
-import Infusiones from './components/Infusiones'
-import Suplementos from './components/Suplementos'
-
-
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./styles/App.css";
+import Home from "./components/Home.js";
+import Contacto from "./components/contacto.js";
+import ComoComprar from "./components/como-comprar.js";
+import Tienda from "./components/tienda.js";
+import MediosPago from "./components/medios-pago";
+import Almacen from "./components/Almacen";
+import Dulces from "./components/Dulces";
+import Cereales from "./components/Cereales";
+import Especias from "./components/Especias";
+import Snacks from "./components/Snacks";
+import Untables from "./components/Untables";
+import Harinas from "./components/Harinas";
+import Infusiones from "./components/Infusiones";
+import Suplementos from "./components/Suplementos";
 
 function App() {
   return (
     <Router>
       <Switch>
-
-      <Route path="/especias">
+        <Route path="/especias">
           <Especias />
         </Route>
 
