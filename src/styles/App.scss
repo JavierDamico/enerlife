@@ -1,5 +1,8 @@
-
-
+@import "_tienda";
+@import "_contacto";
+@import "_medios-pago";
+@import "_como-comprar";
+@import "_detalle";
 
 $font-stack: "Poppins", sans-serif;
 $brand-color: #47da54;
@@ -86,7 +89,7 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: $brand-color;
-  font-size: 22px;
+  font-size: 20px;
   a {
     color: white;
     background-color: $brand-color;
@@ -112,7 +115,7 @@ body {
     display: none;
     left: 10px;
     a {
-      font-size: 18px;
+      font-size: 16px;
     }
     li a {
       display: block;
@@ -132,7 +135,7 @@ body {
 
 .banner {
   text-align: center;
-  background-image: url('../images/granos_varios_rec.jpg');
+  background-image: url("../images/granos_varios_rec.jpg");
   color: white;
   padding: 120px;
   background-size: cover;
@@ -243,12 +246,6 @@ hr {
   color: white;
   font-weight: 500;
 }
-
-@import '_tienda';
-@import '_contacto';
-@import 'medios-pago';
-@import 'como-comprar';
-
 
 @media screen and (max-width: 768px) {
   .barra input {

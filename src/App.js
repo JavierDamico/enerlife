@@ -14,11 +14,16 @@ import Untables from "./components/Untables";
 import Harinas from "./components/Harinas";
 import Infusiones from "./components/Infusiones";
 import Suplementos from "./components/Suplementos";
+import Detalle from "./components/Detalle"
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/productos/:id">
+          <Detalle />
+        </Route>
+
         <Route path="/especias">
           <Especias />
         </Route>

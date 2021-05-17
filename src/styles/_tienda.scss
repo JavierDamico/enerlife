@@ -1,93 +1,111 @@
 .tienda-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 12px;
-    width: 100%;
-    margin-top: 24px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 12px;
+  width: 100%;
+  margin-top: 24px;
 
-    .select-cat {
-        a {
-            text-decoration: none;
-        }
-
-        h3 {
-          color: $brand-color;
-        }
+  .select-cat {
+    a {
+      text-decoration: none;
     }
 
-    .tarj-prod {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width:75%
-
-            
+    h3 {
+      color: #47da54;
     }
-
-    .producto {
-        // flex-direction: column;
-        // display: flex;
-        width: 250px;
-        text-align: center;
-        margin:12px;
-        border: 1px solid lightgray;
-        border-radius: 20px;
-        overflow: hidden;
-        font-size: 1vw;
-
-        .name,
-        .price {
-            display: block;
-        }
-
-        .price {
-            color: $brand-color;
-            font-weight: 600;
-            font-size: 20px;
-        }
-    }
-}
-    .more {
-      display: flex;
-      justify-content: center;
-        .btn {
-          margin: 12px;
-          background: #47DA54;
-          border: none;
-          padding: 12px;
-          border-radius: 20px;
-          color: white;
-          font-size: 16px;
-        }
-    }
-
-    
-  @media screen and (max-width: 768px) {
-
-    .barra {
-      input {
-        display: none;
-    }
-  }  
-
-    .barra button {
-      display: none;
-    }
-    .contenedor {
-      font-size: 20px;
-    }
-
-    .banner {
-      padding: 0px;
-    }
-
-    .tienda-box{
-
-      .tarj-prod {
-        width: 60%;
-      }
+    // ul li {
+    //   transition: margin-left 0.3s linear, font-weight 0.2s linear,
+    //     color 0.3s linear;
+    // }
+    li:hover {
+      margin: 6px 0px;
+      font-weight: 600;
     }
   }
 
+  .tarj-prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75%;
+  }
+
+  .producto {
+    // flex-direction: column;
+    // display: flex;
+    width: 250px;
+    text-align: center;
+    margin: 12px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 1vw;
+
+    .name,
+    .price {
+      display: block;
+    }
+
+    .price {
+      color: #47da54;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .btn-product {
+      margin: 12px;
+      background-color: white;
+      border: 2px solid #47da54;
+      border-radius: 50px;
+      padding: 6px;
+    }
+
+    .btn-product:hover {
+      background-color: #47da54;
+      transition-duration: 0.4s;
+      color: white;
+      font-weight: 600;
+      padding: 6px 12px;
+      letter-spacing: 2px;
+    }
+  }
+}
+.more {
+  display: flex;
+  justify-content: center;
+  .btn {
+    margin: 12px;
+    background: #47da54;
+    border: none;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .barra {
+    input {
+      display: none;
+    }
+  }
+
+  .barra button {
+    display: none;
+  }
+  .contenedor {
+    font-size: 20px;
+  }
+
+  .banner {
+    padding: 0px;
+  }
+
+  .tienda-box {
+    .tarj-prod {
+      width: 60%;
+    }
+  }
+}
