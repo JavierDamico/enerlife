@@ -7,21 +7,25 @@
   margin-top: 24px;
 
   .select-cat {
+    height: 300px;
+    position: sticky;
+    top: 36px;
+    
     a {
       text-decoration: none;
+    }
+
+    .links-tienda:hover {
+      color: #47da54
+    }
+    .links-tienda {
+      margin: 6px 0px;
     }
 
     h3 {
       color: #47da54;
     }
-    // ul li {
-    //   transition: margin-left 0.3s linear, font-weight 0.2s linear,
-    //     color 0.3s linear;
-    // }
-    li:hover {
-      margin: 6px 0px;
-      font-weight: 600;
-    }
+    
   }
 
   .tarj-prod {
@@ -40,7 +44,7 @@
     border: 1px solid lightgray;
     border-radius: 20px;
     overflow: hidden;
-    font-size: 1vw;
+    // font-size: 1vw;
 
     .name,
     .price {

@@ -19,7 +19,7 @@ function Detalle() {
       return false;
     });
     setProducto(resultado);
-  });
+  }, []);
 
   return (
     <>

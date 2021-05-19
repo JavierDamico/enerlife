@@ -3,6 +3,7 @@
 @import "_medios-pago";
 @import "_como-comprar";
 @import "_detalle";
+@import "_search";
 
 $font-stack: "Poppins", sans-serif;
 $brand-color: #47da54;
@@ -245,6 +246,10 @@ hr {
   text-align: center;
   color: white;
   font-weight: 500;
+
+  .social-links {
+  margin: 0px 6px;
+}
 }
 
 @media screen and (max-width: 768px) {

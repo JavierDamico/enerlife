@@ -17,31 +17,31 @@ function Tienda() {
           <h3>Categorias</h3>
           <ul>
             <li>
-              <Link to="/almacen">Almacen</Link>
+              <Link to="/almacen" className="links-tienda">Almacen</Link>
             </li>
             <li>
-              <Link to="/dulces">Dulces</Link>
+              <Link to="/dulces" className="links-tienda">Dulces</Link>
             </li>
             <li>
-              <Link to="/cereales">Cereales y legumbres</Link>
+              <Link to="/cereales" className="links-tienda">Cereales y legumbres</Link>
             </li>
             <li>
-              <Link to="/especias">Especias</Link>
+              <Link to="/especias" className="links-tienda">Especias</Link>
             </li>
             <li>
-              <Link to="/snacks">Snacks</Link>
+              <Link to="/snacks" className="links-tienda">Snacks</Link>
             </li>
             <li>
-              <Link to="/untables">Untables</Link>
+              <Link to="/untables" className="links-tienda">Untables</Link>
             </li>
             <li>
-              <Link to="/harinas">Harinas y premezclas</Link>
+              <Link to="/harinas" className="links-tienda">Harinas y premezclas</Link>
             </li>
             <li>
-              <Link to="/infusiones">Infusiones</Link>
+              <Link to="/infusiones" className="links-tienda">Infusiones</Link>
             </li>
             <li>
-              <Link to="/suplementos">Suplementos</Link>
+              <Link to="/suplementos" className="links-tienda">Suplementos</Link>
             </li>
           </ul>
         </div>

@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 function Footer() {
     return (
@@ -40,7 +43,7 @@ function Footer() {
 
                 </div>
                 <div className="footer-bottom">
-                    <p>Diseño Javier D'Amico</p>
+                    <p><FacebookIcon className="social-links" fontSize="large"/><InstagramIcon className="social-links" fontSize="large"/><TwitterIcon className="social-links" fontSize="large"/></p>
                 </div>
             </footer>
 
