@@ -1,6 +1,13 @@
 .results {
+ 
+  padding: 24px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background: #47da54;
+}
+
+
+.barra-busqueda {
   position: relative;
-  right: 740px;
-  top: 48px;
-  max-width: 350px;
 }
