@@ -1,11 +1,15 @@
 import productos from './Productos'
-import {useState} from 'react'
+import {Link} from 'react-router-dom'
+
+// const random = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+
+var arrDestacados = productos.sort(() => Math.random() - 0.5)
+
 
 function GenDestacados() {
 
-    var [page, setPage] = useState(0)
-
-    var pages = productos
+    var pages = arrDestacados.slice(1, 5)
+    console.log(pages)
 
     return (
         <>
@@ -13,9 +17,11 @@ function GenDestacados() {
                 {
                     pages.map(function (dato) {
                         return <div className="prod-destacado" key={dato.id}>
-                            <img src={dato.photo} alt="producto" />
-                            <p>{dato.name}</p>
-                            <p className="price">${dato.price}</p>
+                        <img src={dato.photo} alt="producto" />
+                        <p className="name">{dato.name}</p>
+                        <p className="price">${dato.price}</p>
+                        <Link to={`/productos/${dato.id}`} ><button className="btn-product">Detalles</button></Link>
+                        <button className="btn-product">Comprar</button>
                         </div>
                     })
                 }

@@ -213,12 +213,16 @@ hr {
   letter-spacing: 2px;
 }
 
-.results {
+.search-results {
   padding: 24px;
   position: absolute;
   width: 100%;
   left: 0;
   background: #47da54;
+}
+
+.search-results__link {
+  color: white;
 }
 
 .barra-busqueda {
@@ -372,6 +376,10 @@ body button:focus {
   margin-bottom: 64px;
   color: white;
 }
+.banner .boton-comprar:hover {
+  transition: 0.3s;
+  background-color: #3fbf3f;
+}
 
 .beneficios {
   display: flex;
@@ -401,12 +409,36 @@ body button:focus {
   padding: 48px;
 }
 .destacados .prod-destacado {
+  width: 250px;
   text-align: center;
   margin: 12px;
+  border: 1px solid lightgray;
   border-radius: 20px;
   overflow: hidden;
-  border: 1px solid lightgray;
-  box-shadow: gray 3px 3px 3px;
+}
+.destacados .prod-destacado .name,
+.destacados .prod-destacado .price {
+  display: block;
+}
+.destacados .prod-destacado .price {
+  color: #47da54;
+  font-weight: 600;
+  font-size: 20px;
+}
+.destacados .prod-destacado .btn-product {
+  margin: 12px;
+  background-color: white;
+  border: 2px solid #47da54;
+  border-radius: 50px;
+  padding: 6px;
+}
+.destacados .prod-destacado .btn-product:hover {
+  background-color: #47da54;
+  transition-duration: 0.4s;
+  color: white;
+  font-weight: 600;
+  padding: 6px 12px;
+  letter-spacing: 2px;
 }
 
 hr {

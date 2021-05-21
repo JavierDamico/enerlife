@@ -24,6 +24,8 @@ function Home() {
     setResults(resultados);
   }
 
+var smallResults = results.slice(0,5)
+
   return (
     <>
       <div className="barra">
@@ -39,21 +41,23 @@ function Home() {
             />
             <button className="search-button">🔍</button>
           </form>
-          <div className="results">
-          {results.map((result, i) => {
-            return (
-              <div>
-                <Link  to={`/productos/${result.id}`} key={i}>
-                  {result.name}
-                </Link>
-              </div>
-            );
-          })}
+          <div className="search-results">
+            {smallResults.map((result, i) => {
+              return (
+                <div>
+                  <Link
+                    to={`/productos/${result.id}`}
+                    key={i}
+                    className="search-results__link"
+                  >
+                    {result.name}
+                  </Link>
                 </div>
+              );
+            })}
+          </div>
         </div>
       </div>
-
-      
     </>
   );
 }

@@ -1,12 +1,17 @@
-.results {
+.search-results {
  
   padding: 24px;
   position: absolute;
   width: 100%;
   left: 0;
   background: #47da54;
+
 }
 
+  .search-results__link {
+     color: white;
+    
+  }
 
 .barra-busqueda {
   position: relative;
