@@ -229,6 +229,16 @@ hr {
   position: relative;
 }
 
+.home-productos-container {
+  background-color: rgba(211, 211, 211, 0.3);
+}
+.home-productos-container .home-productos-destacados {
+  text-align: center;
+  color: #47da54;
+  margin: 24px 0px;
+  font-size: 36px;
+}
+
 body {
   font: 100% "Poppins", sans-serif;
 }

@@ -7,9 +7,9 @@ import MenuBar from './MenuBar'
 import Banner from './Banner'
 import Footer from './Footer'
 
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <div className="Home">
       <TopBar />
 
       <MenuBar />
@@ -18,6 +18,10 @@ function App() {
 
       <Beneficios />
 
+      <div className="home-productos-container">
+        <h1 className="home-productos-destacados">Productos destacados</h1>
+      </div>
+
       <GenDestacados />
 
       <Footer />
@@ -25,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
