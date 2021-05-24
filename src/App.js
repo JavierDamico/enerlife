@@ -14,7 +14,10 @@ import Untables from "./components/Untables";
 import Harinas from "./components/Harinas";
 import Infusiones from "./components/Infusiones";
 import Suplementos from "./components/Suplementos";
-import Detalle from "./components/Detalle"
+import Detalle from "./components/Detalle";
+import Blog from "./components/Blog";
+import Curcuma from "./components/Curcuma";
+import PlantasMedicinales from "./components/PlantasMedicinales";
 
 function App() {
   return (
@@ -74,6 +77,18 @@ function App() {
 
         <Route path="/medios-pago">
           <MediosPago />
+        </Route>
+
+        <Route path="/blog">
+          <Blog />
+        </Route>
+
+        <Route path="/curcuma">
+          <Curcuma />
+        </Route>
+
+        <Route path="/plantas-medicinales">
+          <PlantasMedicinales />
         </Route>
 
         <Route path="/" exact>
