@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./styles/App.scss";
 import Home from "./components/Home.js";
-import Contacto from "./components/contacto.js";
-import ComoComprar from "./components/como-comprar.js";
-import Tienda from "./components/tienda.js";
-import MediosPago from "./components/medios-pago";
+import Contacto from "./components/Contacto.js";
+import ComoComprar from "./components/Como-comprar.js";
+import Tienda from "./components/Tienda.js";
+import MediosPago from "./components/Medios-pago";
 import Almacen from "./components/Almacen";
 import Dulces from "./components/Dulces";
 import Cereales from "./components/Cereales";
