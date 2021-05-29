@@ -144,6 +144,11 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .contact .contact-items {
+    width: 35%;
+  }
+}
 .pay {
   margin: 24px;
 }
@@ -273,6 +278,11 @@ hr {
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-container__item--img {
+    display: none;
+  }
+}
 .container-nota {
   width: 70%;
   margin: auto;

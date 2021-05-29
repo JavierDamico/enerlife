@@ -1,6 +1,6 @@
-import carrito from "../images/shopping_cart_white_48dp.svg";
 import { Link } from "react-router-dom";
 import Search from "./Search";
+import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 
 function TopBar() {
   return (
@@ -14,7 +14,10 @@ function TopBar() {
         <Search />
         <div>
           <Link to="carrito.html">
-            <img className="logo-carrito" src={carrito} alt="Carrito" />
+            <ShoppingCartOutlinedIcon
+              style={{ color: "#fff" }}
+              fontSize="large"
+            ></ShoppingCartOutlinedIcon>
           </Link>
         </div>
       </div>

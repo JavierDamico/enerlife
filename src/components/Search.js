@@ -24,7 +24,7 @@ function Home() {
     setResults(resultados);
   }
 
-var smallResults = results.slice(0,5)
+  var smallResults = results.slice(0, 5);
 
   return (
     <>

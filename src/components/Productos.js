@@ -5,6 +5,7 @@ module.exports = [
     name: "Aceite de canola x 250ml",
     price: "330",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "2",
@@ -12,6 +13,7 @@ module.exports = [
     name: "Aceite de coco neutro x 180ml",
     price: "350",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "3",
@@ -19,6 +21,7 @@ module.exports = [
     name: "Aceite de coco virgen x 200ml",
     price: "464",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "4",
@@ -26,6 +29,7 @@ module.exports = [
     name: "Aceite de oliva extra virgen x 500ml",
     price: "363",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "5",
@@ -33,6 +37,7 @@ module.exports = [
     name: "Leche de almendras x 1L",
     price: "200",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "6",
@@ -40,6 +45,7 @@ module.exports = [
     name: "Leche de almendras de vainilla x 1L",
     price: "175",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "7",
@@ -47,6 +53,7 @@ module.exports = [
     name: "Sal marina x 50gr",
     price: "95",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "8",
@@ -54,6 +61,7 @@ module.exports = [
     name: "Sal marina con especias x 250gr",
     price: "122",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "9",
@@ -61,6 +69,7 @@ module.exports = [
     name: "Sal rosa del Himalaya x 285gr",
     price: "224",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "10",
@@ -68,6 +77,7 @@ module.exports = [
     name: "Azucar integral mascabo x 500gr",
     price: "102",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "11",
@@ -75,6 +85,7 @@ module.exports = [
     name: "Estevia en polvo x 110gr",
     price: "234",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "12",
@@ -82,6 +93,7 @@ module.exports = [
     name: "Stevia liquida x 125gr",
     price: "176",
     category_id: "1",
+    category: "Almacen",
   },
   {
     id: "13",
@@ -89,6 +101,7 @@ module.exports = [
     name: "Alfajores Celienergy x 50gr",
     price: "78",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "14",
@@ -96,6 +109,7 @@ module.exports = [
     name: "Alfajor vegano",
     price: "73",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "15",
@@ -103,6 +117,7 @@ module.exports = [
     name: "Alfajor de arroz",
     price: "38",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "16",
@@ -110,6 +125,7 @@ module.exports = [
     name: "Barritas de pasta de maní y chocolate",
     price: "76",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "17",
@@ -117,6 +133,7 @@ module.exports = [
     name: "Chocolate con mani, sin azucar",
     price: "209",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "18",
@@ -124,6 +141,7 @@ module.exports = [
     name: "Tableta de chocolate semiamargo sin azúcar",
     price: "198",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "19",
@@ -131,6 +149,7 @@ module.exports = [
     name: "Helado vegano x 1/4kg",
     price: "275",
     category_id: "2",
+    category: "Dulces",
   },
   {
     id: "20",
@@ -138,6 +157,7 @@ module.exports = [
     name: "Arroz Yamani integral x 500gr",
     price: "94",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "21",
@@ -145,6 +165,7 @@ module.exports = [
     name: "Arvejas enteras secas x 500gr",
     price: "55",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "22",
@@ -152,6 +173,7 @@ module.exports = [
     name: "Avena instantánea x 500gr",
     price: "95",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "23",
@@ -159,6 +181,7 @@ module.exports = [
     name: "Porotos negros x 500gr",
     price: "106",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "24",
@@ -166,6 +189,7 @@ module.exports = [
     name: "Porotos aduki x 500gr",
     price: "140",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "25",
@@ -173,6 +197,7 @@ module.exports = [
     name: "Porotos alubia x 500gr",
     price: "116",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "26",
@@ -180,6 +205,7 @@ module.exports = [
     name: "Lentejas x 500gr",
     price: "245",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "27",
@@ -187,6 +213,7 @@ module.exports = [
     name: "Lentejon x 500gr",
     price: "174",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "28",
@@ -194,6 +221,7 @@ module.exports = [
     name: "Semillas de lino x 100gr",
     price: "22",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "29",
@@ -201,6 +229,7 @@ module.exports = [
     name: "Semillas de sesamo x 100gr",
     price: "35",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "30",
@@ -208,6 +237,7 @@ module.exports = [
     name: "Semillas de zapallo.jpg",
     price: "109",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "31",
@@ -215,6 +245,7 @@ module.exports = [
     name: "Garbanzos x 500gr",
     price: "80",
     category_id: "3",
+    category: "Cereales",
   },
   {
     id: "32",
@@ -222,6 +253,7 @@ module.exports = [
     name: "Ají molido x 100gr",
     price: "67",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "33",
@@ -229,6 +261,7 @@ module.exports = [
     name: "Ajo en polvo x 100gr",
     price: "61",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "34",
@@ -236,6 +269,7 @@ module.exports = [
     name: "Chimichurri x 100gr",
     price: "88",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "35",
@@ -243,6 +277,7 @@ module.exports = [
     name: "Mix de pimientas x 100gr",
     price: "232",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "36",
@@ -250,6 +285,7 @@ module.exports = [
     name: "Mostaza en granos x 100gr",
     price: "52",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "37",
@@ -257,6 +293,7 @@ module.exports = [
     name: "Orégano x 100gr",
     price: "88",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "38",
@@ -264,6 +301,7 @@ module.exports = [
     name: "Romero x 100gr",
     price: "69",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "39",
@@ -271,6 +309,7 @@ module.exports = [
     name: "Tomillo x 100gr",
     price: "126",
     category_id: "4",
+    category: "Especias",
   },
   {
     id: "40",
@@ -278,6 +317,7 @@ module.exports = [
     name: "Maíz frito x 100gr",
     price: "109",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "41",
@@ -285,6 +325,7 @@ module.exports = [
     name: "Maní Japonés x 100gr",
     price: "91",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "42",
@@ -292,6 +333,7 @@ module.exports = [
     name: "Maní repelado sin sal x 100gr",
     price: "54",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "43",
@@ -299,6 +341,7 @@ module.exports = [
     name: "Mix cervecero x 100gr",
     price: "96",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "44",
@@ -306,6 +349,7 @@ module.exports = [
     name: "Mix de frutos secos x 100gr",
     price: "65",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "45",
@@ -313,6 +357,7 @@ module.exports = [
     name: "Almohaditas de avena x 100gr",
     price: "85",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "46",
@@ -320,6 +365,7 @@ module.exports = [
     name: "Almohaditas de avena rellenas x 100gr",
     price: "100",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "47",
@@ -327,6 +373,7 @@ module.exports = [
     name: "Granola x 100gr",
     price: "117",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "48",
@@ -334,6 +381,7 @@ module.exports = [
     name: "Chips de coco x 100gr",
     price: "300",
     category_id: "5",
+    category: "Snacks",
   },
   {
     id: "49",
@@ -341,6 +389,7 @@ module.exports = [
     name: "Dulce de leche con stevia x 400gr",
     price: "300",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "50",
@@ -348,6 +397,7 @@ module.exports = [
     name: "Dulce de leche de almendras x 250gr",
     price: "214",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "51",
@@ -355,6 +405,7 @@ module.exports = [
     name: "Dulce de leche sin azucar x 400gr",
     price: "355",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "52",
@@ -362,6 +413,7 @@ module.exports = [
     name: "Ghee manteca clarificada x 400gr",
     price: "435",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "53",
@@ -369,6 +421,7 @@ module.exports = [
     name: "Hummus de garbanzos x 230gr",
     price: "205",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "54",
@@ -376,6 +429,7 @@ module.exports = [
     name: "Mayonesa vegetal x 170gr",
     price: "197",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "55",
@@ -383,6 +437,7 @@ module.exports = [
     name: "Miel pura de abejas x 500gr",
     price: "348",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "56",
@@ -390,6 +445,7 @@ module.exports = [
     name: "Pasta de mani crocante x 400gr",
     price: "203",
     category_id: "6",
+    category: "Untables",
   },
   {
     id: "57",
@@ -397,6 +453,7 @@ module.exports = [
     name: "Harina de garbanzos x 400gr",
     price: "68",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "58",
@@ -404,6 +461,7 @@ module.exports = [
     name: "Harina de maiz x 500gr",
     price: "95",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "59",
@@ -411,6 +469,7 @@ module.exports = [
     name: "Harina de quinoa x 250",
     price: "225",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "60",
@@ -418,6 +477,7 @@ module.exports = [
     name: "Harina de trigo integral x 1kg",
     price: "87",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "61",
@@ -425,6 +485,7 @@ module.exports = [
     name: "Premezcla Santamaria x 500gr",
     price: "250",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "62",
@@ -432,6 +493,7 @@ module.exports = [
     name: "Premezcla Dimax x 500gr",
     price: "240",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "63",
@@ -439,6 +501,7 @@ module.exports = [
     name: "Premezcla Delicel p/ñoquis x 250gr",
     price: "200",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "64",
@@ -446,6 +509,7 @@ module.exports = [
     name: "Premezcla para brownies x 500gr",
     price: "270",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "65",
@@ -453,6 +517,7 @@ module.exports = [
     name: "Harna de algarroba x 100gr",
     price: "89",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "66",
@@ -460,6 +525,7 @@ module.exports = [
     name: "Harina de soja x 250gr",
     price: "40",
     category_id: "7",
+    category: "Harinas",
   },
   {
     id: "67",
@@ -467,6 +533,7 @@ module.exports = [
     name: "Burrito (hierba serrana) x 50gr",
     price: "47",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "68",
@@ -474,6 +541,7 @@ module.exports = [
     name: "Menta peperina x 100gr",
     price: "182",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "69",
@@ -481,6 +549,7 @@ module.exports = [
     name: "Moringa deshidratada x 50gr",
     price: "131",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "70",
@@ -488,6 +557,7 @@ module.exports = [
     name: "Yerba mate Ajedrez x 500gr",
     price: "283",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "71",
@@ -495,6 +565,7 @@ module.exports = [
     name: "Té Arabia 25 saquitos",
     price: "150",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "72",
@@ -502,6 +573,7 @@ module.exports = [
     name: "Té Asia 25 saquitos",
     price: "150",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "73",
@@ -509,6 +581,7 @@ module.exports = [
     name: "Té Oasis de tilo",
     price: "200",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "74",
@@ -516,6 +589,7 @@ module.exports = [
     name: "Té organico en doypack x 100gr",
     price: "245",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "75",
@@ -523,6 +597,7 @@ module.exports = [
     name: "Té Be Zen de cedrón",
     price: "615",
     category_id: "8",
+    category: "Infusiones",
   },
   {
     id: "76",
@@ -530,6 +605,7 @@ module.exports = [
     name: "Aceite de pescado 60 cápsulas",
     price: "730",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "77",
@@ -537,6 +613,7 @@ module.exports = [
     name: "Cartílago de tiburón",
     price: "518",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "78",
@@ -544,6 +621,7 @@ module.exports = [
     name: "Colágeno facial 30 cápsulas",
     price: "770",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "79",
@@ -551,6 +629,7 @@ module.exports = [
     name: "Colágeno hidrolizado x 100gr",
     price: "218",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "80",
@@ -558,6 +637,7 @@ module.exports = [
     name: "Ginseng rojo x 50 comprimidos",
     price: "615",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "81",
@@ -565,6 +645,7 @@ module.exports = [
     name: "Graviola + Maca x 90gr",
     price: "220",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "82",
@@ -572,6 +653,7 @@ module.exports = [
     name: "Maca negra en polvo",
     price: "414",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "83",
@@ -579,6 +661,7 @@ module.exports = [
     name: "Probiótico Kyojin x 60ml",
     price: "1160",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "84",
@@ -586,6 +669,7 @@ module.exports = [
     name: "Proteina de soja x 1kg",
     price: "1980",
     category_id: "9",
+    category: "Suplementos",
   },
   {
     id: "85",
@@ -593,5 +677,6 @@ module.exports = [
     name: "Vitamína B12 x 250ml",
     price: "1100",
     category_id: "9",
+    category: "Suplementos",
   },
 ];

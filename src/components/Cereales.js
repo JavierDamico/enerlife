@@ -27,7 +27,7 @@ function Cereales (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="3" />
+            <GenProductos category_id="3"/>
 
             </div>
             

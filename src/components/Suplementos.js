@@ -27,7 +27,7 @@ function Suplementos (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="9" />
+            <GenProductos category_id="9"/>
 
             </div>
             

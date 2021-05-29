@@ -27,7 +27,7 @@ function Harinas (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="7" />
+            <GenProductos category_id="7"/>
 
             </div>
             

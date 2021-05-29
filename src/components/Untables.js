@@ -27,7 +27,7 @@ function Untables (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="6" />
+            <GenProductos category_id="6"/>
 
             </div>
             

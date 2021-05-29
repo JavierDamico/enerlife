@@ -27,7 +27,7 @@ function Snacks (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="5" />
+            <GenProductos category_id="5"/>
 
             </div>
             

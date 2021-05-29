@@ -27,7 +27,7 @@ function Dulces (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="2" />
+            <GenProductos category_id="2"/>
 
             </div>
             

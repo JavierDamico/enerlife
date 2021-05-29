@@ -27,7 +27,7 @@ function Infusiones (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="8" />
+            <GenProductos category_id="8"/>
 
             </div>
             

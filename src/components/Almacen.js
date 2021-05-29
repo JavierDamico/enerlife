@@ -27,7 +27,7 @@ function Almacen (){
                     <li><Link to="/suplementos">Suplementos</Link></li>
             </div>
 
-            <GenProductos category_id="1" />
+            <GenProductos category_id="1"/>
 
             </div>
             
