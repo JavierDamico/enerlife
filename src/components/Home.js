@@ -1,11 +1,10 @@
-
-import '../styles/App.css';
-import GenDestacados from './GenDestacados'
-import TopBar from './TopBar'
-import Beneficios from './Beneficios'
-import MenuBar from './MenuBar'
-import Banner from './Banner'
-import Footer from './Footer'
+import "../styles/App.css";
+import GenDestacados from "./GenDestacados";
+import TopBar from "./TopBar";
+import Beneficios from "./Beneficios";
+import MenuBar from "./MenuBar";
+import Banner from "./Banner";
+import Footer from "./Footer";
 
 function Home() {
   return (

@@ -13,7 +13,7 @@ function TopBar() {
         </div>
         <Search />
         <div>
-          <Link to="carrito.html">
+          <Link to="/cart">
             <ShoppingCartOutlinedIcon
               style={{ color: "#fff" }}
               fontSize="large"

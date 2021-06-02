@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { useEffect } from "react";
 import "./styles/App.scss";
 import Home from "./components/Home.js";
 import Contacto from "./components/Contacto.js";
@@ -18,11 +19,16 @@ import Detalle from "./components/Detalle";
 import Blog from "./components/Blog";
 import Curcuma from "./components/Curcuma";
 import PlantasMedicinales from "./components/PlantasMedicinales";
+import Cart from "./components/Cart";
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/cart">
+          <Cart />
+        </Route>
+
         <Route path="/productos/:id">
           <Detalle />
         </Route>
