@@ -12,7 +12,7 @@ function GenProductos(props) {
 
   useEffect(() => {
     setCart(JSON.parse(localStorage.getItem("cart"))  || [] );
-  });
+  },[]);
 
   function addToCart(producto) {
     var exists = cart.find((p) => p.id == producto.id);

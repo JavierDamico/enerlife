@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Fragment } from "react";
 // import Productos from "./Productos";
 import TopBar from "./TopBar";
 import MenuBar from "./MenuBar";
@@ -90,9 +90,9 @@ function Cart() {
   }
 
   useEffect(() => {
-    setProductos(JSON.parse(localStorage.getItem("cart")));
+    setProductos(JSON.parse(localStorage.getItem("cart"))  || [] );
     updateTotal();
-  });
+  },[]);
 
   return (
     <>
@@ -101,8 +101,8 @@ function Cart() {
       <List>
         {productos.map(function (producto) {
           return (
-            <>
-              <ListItem key={producto.id}>
+            <Fragment key={producto.id}>
+              <ListItem >
                 <ListItemText>{producto.name}</ListItemText>
                 <ListItemText>
                   Disponibles: {producto.stock} - Cantidad: {producto.qty} -
@@ -126,7 +126,7 @@ function Cart() {
                 </div>
               </ListItem>
               <Divider component="li" />
-            </>
+            </ Fragment>
           );
         })}
         <ListItem>
