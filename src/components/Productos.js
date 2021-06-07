@@ -3,7 +3,7 @@ module.exports = [
     id: "1",
     photo: "/productos/aceite-de-canola-300x300.jpg",
     name: "Aceite de canola x 250ml",
-    price: "330",
+    price: "340",
     category_id: "1",
     category: "Almacen",
     stock: 50,
