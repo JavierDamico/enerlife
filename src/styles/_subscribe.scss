@@ -1,0 +1,29 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  background-color: #3fbf3f;
+  padding: 36px;
+
+  .p_subscribe {
+    display: inline-block;
+    color: white;
+    margin-right: 6px;
+    margin-top: 6px;
+    font-size: 24px;
+  }
+  .input_subscribe {
+    font-size: 16px;
+    border: none;
+    padding: 12px 0 12px 16px;
+    border-radius: 5px;
+  }
+  .btn_subscribe {
+    font-size: 16px;
+    color: white;
+    background-color: #107010;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-left: 4px;
+  }
+}

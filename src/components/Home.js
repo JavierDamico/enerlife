@@ -5,6 +5,7 @@ import Beneficios from "./Beneficios";
 import MenuBar from "./MenuBar";
 import Banner from "./Banner";
 import Footer from "./Footer";
+import Subscribe from "./Subscribe";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
       </div>
 
       <GenDestacados />
-
+      <Subscribe />
       <Footer />
     </div>
   );

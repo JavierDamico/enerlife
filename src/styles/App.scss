@@ -7,6 +7,7 @@
 @import "_home";
 @import "_blog";
 @import "_notas";
+@import "_subscribe";
 
 $font-stack: "Poppins", sans-serif;
 $brand-color: #47da54;
@@ -65,12 +66,12 @@ body {
       border: none;
       width: 90%;
     }
-    .carrito {
-      width: 15%;
-      img {
-        width: 150%;
-      }
-    }
+    // .carrito {
+    //   width: 15%;
+    //   img {
+    //     width: 150%;
+    //   }
+    // }
     .searchbar {
       margin: 15px;
       size: 50;
@@ -86,6 +87,10 @@ body {
     form {
       width: 100%;
     }
+  }
+  .micuenta {
+    color: white;
+    font-size: 20px;
   }
 }
 

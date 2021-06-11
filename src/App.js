@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { useEffect } from "react";
 import "./styles/App.scss";
 import Home from "./components/Home.js";
 import Contacto from "./components/Contacto.js";
